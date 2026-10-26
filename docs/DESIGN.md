@@ -229,7 +229,8 @@ Bottom navigation with three tabs: **Worlds**, **Play**, **Settings**.
   bottom with a send/stop button. Story state is one tap away in a bottom sheet.
 - **Settings**: connections, prompt presets, appearance, export and backup.
 
-Conventions: Material 3, dynamic color with a dark default, text scaling honored,
+Conventions: Material 3, dark theme only for now with orange as the single accent
+(more theming later), text scaling honored,
 no horizontal scrolling of prose, state survives rotation and process death,
 generation continues in a foreground service so leaving the app does not cancel it.
 
